@@ -4,5 +4,5 @@ java -version
 @echo You NEED Java 1.8, at least. If the version above is not 1.8+, or if you get an UnsupportedClassVersionError, update Java.
 @echo.
 
-java -jar RHRE.jar
+java -jar -Xmx2048m RHRE3.jar
 pause
